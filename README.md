@@ -33,12 +33,14 @@ bash
 
 python cpu_scheduler.py
 o	And voilà, the interface pops up. You can now input processes, set burst times, priorities, arrival times—everything you'd need to simulate scheduling algorithms.
+
 3.	Input Format:
 o	Number of Processes: Straight number. Like how many times I've saved the planet.
 o	Burst Times: Comma-separated integers (e.g., 5, 3, 8, 6).
 o	Arrival Times: Same as burst times (because even in simulations, timing matters).
 o	Priorities: Comma-separated (give some love to those high-priority tasks).
 o	Time Quantum: Enter a value, especially if you're into Round Robin. You’ll know when you’ve got it right.
+
 Technical Notes (because details matter)
 •	Class Design: We’ve got a Process class that defines each process—burst time, arrival time, priority, and the whole shebang. Just like how I define my suits.
 •	Algorithm Implementations: Algorithms are designed to simulate real-world CPU scheduling. You’ll see how they each compute completion, turnaround, and waiting times.
