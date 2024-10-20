@@ -41,10 +41,24 @@ o	Arrival Times: Same as burst times (because even in simulations, timing matter
 o	Priorities: Comma-separated (give some love to those high-priority tasks).
 o	Time Quantum: Enter a value, especially if you're into Round Robin. You’ll know when you’ve got it right.
 
+
 Technical Notes (because details matter)
+
 •	Class Design: We’ve got a Process class that defines each process—burst time, arrival time, priority, and the whole shebang. Just like how I define my suits.
 •	Algorithm Implementations: Algorithms are designed to simulate real-world CPU scheduling. You’ll see how they each compute completion, turnaround, and waiting times.
 •	UI/UX: A sleek interface built with Tkinter and ttk. Let’s be honest, anything less would be embarrassing.
+
+![image](https://github.com/user-attachments/assets/652d1949-0f89-457a-9bfd-43d53d473db0)
+
+![image](https://github.com/user-attachments/assets/04576e3a-64bb-4744-9142-bffda2f5cf37)
+
+![image](https://github.com/user-attachments/assets/20bcf2e6-53e8-4e75-a938-97d1aa841eb8)
+
+![image](https://github.com/user-attachments/assets/a43da624-634d-4eef-8adb-abf7e6971040)
+
+
+
+
 Why This Matters
 Maybe you’re studying computer science, maybe you're trying to optimize CPU performance, or maybe you’re just a curious mind who appreciates efficient multitasking. In any case, this app shows how processes are scheduled in your CPU, with real-time feedback and visuals that’ll make any tech geek happy.
 Now go ahead, launch it, and feel like a scheduling genius. Just try to keep up.
