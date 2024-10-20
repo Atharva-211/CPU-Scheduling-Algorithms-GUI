@@ -1,20 +1,26 @@
 CPU Scheduling Algorithms 
+
 Hey there, genius. You've just stepped into a world where CPU scheduling meets slick, next-gen user interfaces. This application—yeah, this one—lets you visualize how CPU scheduling algorithms work in real time. You know, the algorithms your processors rely on to handle multitasking and keep everything from crashing. Welcome to my world.
 Features (or as I call them, "Perks")
+
 1.	Multiple Algorithms:
 o	Round Robin (RR): Fast, fair, and just like me, doesn’t like to wait. Time quantum's the secret sauce here.
 o	Shortest Job First (SJF): Think efficiency. We take the shortest task and tackle it head-on.
 o	Priority Scheduling: If you're important, you go first. Pretty much like how I live.
 o	First Come First Serve (FCFS): The old-fashioned queue method. Whoever arrives first gets my attention.
-2.	Process Input:
+
+3.	Process Input:
 o	Add in processes with burst times, arrival times, and priorities (because not all processes are equal—like me, always top priority).
 o	Define a time quantum for Round Robin, because a genius loves to tinker with time.
-3.	Visual Output:
+
+5.	Visual Output:
 o	Four tabs, one for each algorithm. Check out the completion times, turnaround times, and wait times. Want details? You got 'em.
 o	You’ll see beautifully plotted time bars that give you a clear picture of how each scheduling algorithm handles your processes—right there on the screen.
-4.	Dynamic Gantt Chart:
+
+7.	Dynamic Gantt Chart:
 o	Real-time Gantt chart plotting. Yeah, we’re going full visual. You’ll see how each process gets its time in the spotlight, broken down by algorithm. Eye candy for tech brains.
 Setup and Launch
+
 How to Fire This Baby Up:
 1.	Dependencies: Make sure you've got Tkinter, Matplotlib, and ttk running in your Python environment. It’s not rocket science... oh wait, I do that too.
 bash
