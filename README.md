@@ -1,4 +1,5 @@
 CPU Scheduling Algorithms GUI
+
 Hey there, genius. You've just stepped into a world where CPU scheduling meets slick, next-gen user interfaces. This application—yeah, this one—lets you visualize how CPU scheduling algorithms work in real time. You know, the algorithms your processors rely on to handle multitasking and keep everything from crashing. Welcome to my world.
 
 Features (or as I call them, "Perks")
